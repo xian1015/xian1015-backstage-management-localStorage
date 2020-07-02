@@ -1,0 +1,90 @@
+.contentBox{
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+.tableBox{
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+.infoTitle{
+    font-weight: 600;
+}
+.item{
+    border-bottom: 1px solid black ;
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add{
+    width: 70px;
+    position: relative;
+    margin-left: 40px;
+}
+.alter{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.Mark{
+    position: fixed;
+    left:0;
+    top:0;
+    opacity:0.4;
+    width:100%;
+    height:100%;
+    background:#000;
+    z-index:10;
+}
+.addInfo,
+.alterInfo{
+    position: fixed;
+    width: 400px;
+    height: 240px;
+    left:50%;
+    top:50%;
+    margin: -150px -200px;
+    background-color: #fff;
+    z-index: 20;
+    padding: 10px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.outIconBox{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: auto;
+}
+.outIcon{
+    position: relative;
+    right: -5px;
+    bottom: -5px;
+}
+.addText,
+.alterText{
+    padding: 10px 5px !important; 
+    margin: 10px 0 !important;
+}
+
+.delBox{
+    position: fixed;
+    width: 300px;
+    height: 150px;
+    left:50%;
+    top:50%;
+    margin: -75px -150px;
+    background-color: #fff;
+    padding: 10px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 20;
+}
